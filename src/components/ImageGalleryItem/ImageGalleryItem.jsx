@@ -21,6 +21,5 @@ export const GalleryItem = ({ id,
 };
 
 GalleryItem.propTypes={
-  gallery: PropTypes.array.isRequired,
   openModal: PropTypes.func.isRequired,
 }
